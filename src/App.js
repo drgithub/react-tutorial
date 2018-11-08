@@ -26,7 +26,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Table characterData={characters} removeCharacter={this.removeCharacter}  />
-                <h1>Form</h1>
+                <h1>Forms</h1>
                 <Form handleSubmit={this.handleSubmit} />
             </div>
         );
