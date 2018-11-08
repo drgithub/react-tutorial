@@ -21,9 +21,8 @@ class Form extends Component {
 	    });
 
 	    if(value.trim().length>0){
-	    	
 	    	this.setState({
-	        placeholder : "This is required. Please input your text here"
+	        placeholder : "This is required. Please input your text here."
 	    	});
 		}
 	}
