@@ -7,8 +7,8 @@ class Form extends Component {
         this.initialState = {
             name: '',
             job: '',
-            placeholdername: 'Please input your text here',
-            placeholderjob: 'Please input your text here'
+            placeholdername: 'Please input your text here.',
+            placeholderjob: 'Please input your text here.'
         };
 
         this.state = this.initialState;
