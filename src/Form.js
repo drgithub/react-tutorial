@@ -22,10 +22,17 @@ class Form extends Component {
 	        	[name] : value
 	    	});
 		}else{
-			this.setState({
-		        [placeholder] : "This is required. Please input your text here.",
-		        [name] : ""
-	    	});
+			if(name === 'name'){
+				this.setState({
+			        placeholdername : "Oops! Email is required.",
+			        [name] : ""
+		    	});
+			}else if(name === 'job'){
+				this.setState({
+			        placeholderjob : "Job is required to earn money.",
+			        [name] : ""
+		    	});
+			}
 		}
 	}
 
