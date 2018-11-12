@@ -97,7 +97,7 @@ class Form extends Component {
 	                onChange={this.handleChange} />
 	            <input 
 				    type="button" 
-				    value="Submit" 
+				    value="submit" 
 				    onClick={this.submitForm} />
 	        </form>
 	    );
