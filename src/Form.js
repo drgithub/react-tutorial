@@ -15,7 +15,7 @@ class Form extends Component {
     }
 
     handleChange = event => {
-	    const {name, value, placeholder} = event.target;
+	    const {name, value} = event.target;
 
 	    if(value.trim().length>0){
 	    	this.setState({
